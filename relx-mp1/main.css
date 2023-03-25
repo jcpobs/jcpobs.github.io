@@ -1,0 +1,272 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.nbar{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-link:hover{
+
+    background-color: #5fceca;
+    font-size: 25px;
+    border-radius: 15px;
+    
+}
+
+.navbrandtext{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.carousel-inner{
+    height: 100vh;
+    width: 100%;
+}
+.carousel-inner img{
+   margin: auto;
+   width: 100%;
+   background-size: cover;
+}
+
+
+.ci-1,.ci-2,.ci-3,.ci-4 {
+    height: 100vh;
+    background-position: center;
+  
+}
+.ci-1{
+    background-image: url(images/background-images/banner.jpg);
+    background-size: cover;
+  
+}
+.ci-2{
+    background-image: url(images/background-images/infitinityplus1pod.jpg);
+    background-size: contain;
+   
+}
+.ci-3{
+    background-image: url(images/background-images/craftmanship.jpg);
+    background-size: contain;
+}
+.ci-4{
+    background-image: url(images/background-images/banner1.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(59, 59, 79);
+}
+
+.device-section{
+    margin:0;
+    width: 100%;
+}
+
+.device-link{
+    background-color: #5fceca;
+    font-size: 30px;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
+.pods-images{
+    height: 60vh;
+    width:100%;
+    margin:0;
+    padding: 0;
+}
+
+.homepods-img img{
+    height: 14em;
+    width: 10em;
+    padding: 10px;
+    
+}
+
+.pod-link{
+    background-color: #5fceca;
+    font-size: 25px;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
+
+.devicepage-head {
+    background-image: url(images/background-images/device-web-img.webp);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    text-align: center;
+ 
+}
+
+.devicepage-head h1{
+    font-weight: bold;
+    font-size: 6rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:8%;
+}
+
+.breadcrumb-item{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.pods-headimg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.podcase-img{
+ 
+  width: 100%;
+  overflow: hidden;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+
+
+
+.about-main h1{
+    padding:20px 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content-about img,.content-relx img{
+    object-fit: cover;
+  object-position: center;
+    width: 100%;
+    border-radius:15px;
+    height: 80vh;
+    overflow: hidden;
+}
+
+
+
+.pod-section img{
+    border-radius: 20px;
+    width: 100%;
+
+}
+
+.lookingFor img{
+    height: 30vh;
+}
+
+.phoneCall,.liveChat, .eMail{
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+   
+}
+
+
+
+.phoneCall{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.7)), url(images/background-images/phonecall.jpeg);
+    
+}
+
+.phoneCall h1{
+    margin-top: 20vh;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.liveChat{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.7)),  url(images/background-images/livechat.jpeg);
+}
+.eMail{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.7)),  url(images/background-images/email.jpeg);
+}
+.contact-page {  
+   text-align: center;
+}
+.liveChat img,.eMail img{  
+    margin-top: 40vh;
+    height: 70px;  
+}
+
+.phoneCall img{
+    margin-top: 15vh;
+    height: 70px;
+}
+/* Scroll bar */
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background:#d1e5ff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#5fceca,#ffc734);
+}
+@media only screen and (max-width: 820px) {
+    .ci-1{
+        background-size: cover;
+        background-image: url(images/background-images/car2.jpg);
+    }
+    .ci-2{
+       background-size:cover;
+        background-image: url(images/background-images/mb5.jpg);
+        border-radius: 10px;
+    }
+
+    .ci-3{
+        background-size:cover;
+        background-image: url(images/background-images/mb4.jpg);
+    }
+
+    .ci-4{
+        background-image: url(images/background-images/infitinityplus1pod.jpg);
+        background-size: cover;
+    }
+    .device-link{
+        font-size: 25px;
+        
+    }
+    .pods-images{
+       height: 30vh;
+       width: 100%;
+    
+    }
+    .devicepage-head h1{
+        padding-top:45%;
+        font-size: 40px ;
+        font-weight: bolder;
+    }
+    .devicepage-head {
+       
+        width: 100%;
+        background-size: cover;
+        height:35vh;
+      
+     
+    }
+    .pods-headimg{
+        height: 50vh;
+        width: 100%;
+        object-fit: cover;
+        
+    }
+
+    .phoneCall h1{
+        visibility: hidden;
+    }
+
+ 
+    
+}
+
